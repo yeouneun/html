@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수직정렬</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .list {
+            display: flex;
+            align-items: center;/* 수직정렬 : center / flex-end / flex-start */
+        }
+
+        .list .text{
+            align-items: flex-start;
+        }
+
+        .list h1 {
+            font-size: 40px;
+        }
+
+        .list img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .item {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(50, 187, 187);
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;/* 방향 바꾸기 : 수직 */
+            justify-content: space-between;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="list">
+
+        <div class="text">
+        <h1>제목넣기</h1>
+        <p>본문넣기 본문넣기 본문넣기<br> 본문넣기 본문넣기</p>
+        </div><!-- .text -->
+
+        <img src="img/land-o-lakes-inc-1w3tO5F8HYY-unsplash.jpg" alt="">
+    </div><!-- .list -->
+
+    <div class="item">
+        <div class="text2">
+            <p>news</p>
+            <h2>html 수직정렬</h2>
+        </div><!-- .text2 -->
+        <div>
+        <span>2026.01.30</span><!-- 의미없는 태그 -->
+        <br><span>8시48분</span>
+        </div>
+        <div>
+        <span>금요일</span><br>
+        <span>내일은토요일</span>
+        </div>
+    </div>
+</body>
+
+</html>
