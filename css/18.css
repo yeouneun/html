@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+
+/* section-01 */
+.section-01 {
+    background-color: beige;
+    padding: 100px 0;
+}
+
+.section-01 .inner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(129, 172, 172);
+}
+
+.section-01 .inner h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-01 .inner .list {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-01 .inner .list .item {
+    background-color: rgba(255, 255, 255, 0.678);
+    /* width: 299px; */
+    width: 24%;
+    padding: 20px;
+}
+
+.section-01 .inner .list .item{
+    width: 49%;
+}
+
+.section-01 .inner .list .item p {}
+
+
+/* 화면의 크기가 1024px 이하일 때 스타일 변화 */
+@media screen and (max-width:1024px) {
+    h1 {
+        font-size: 40px;
+        color: cornflowerblue;
+    }
+}
+
+
+/* 화면의 크기가 768px 이하일 때 스타일 변화 */
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 20px;
+        color: coral;
+    }
+}
+
+
+/* 화면의 크기가 480px 이하일 때 스타일 변화 */
+@media screen and (max-width:480px) {
+    body {
+        background-color: rgb(240, 226, 226);
+    }
+
+    h1 {
+        text-align: left;
+        font-size: 16px;
+        color: hotpink;
+    }
+
+    .item{
+        width: 100%;
+    }
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_visual{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.main_visual .swiper .swiper-wrapper .swiper-slide {
+    width: 800px;
+    height: 500px;
+}
+
+.main_visual .swiper .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-01{
+    width: 500px;
+    margin: 100px auto;
+}
+
+.section-01 .swiper-slide{
+    background-color: rgb(209, 163, 163);
+    height: 400px;
+}

@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bg-01 {
+    height: 500px;
+    background-color: antiquewhite;
+    background-image: url('../img/a-rahmat-mn-tDaA_tw9MNE-unsplash.jpg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    /* repeat-x / repeat-y / no-repeat */
+    background-position: right bottom;
+    /* left right top bottom center */
+}
+
+.bg-02 {
+    margin: 100px 0;
+    height: 500px;
+    /* background-color: azure; */
+    background: url('../img/alex-mesmer-8rUM0zKxPgg-unsplash.jpg') center / cover no-repeat yellow fixed;
+    /* background 속기법 한줄 표기 */
+    /* background: 이미지경로 위치 / 크기 반복 고정 */
+}
+
+.bg-03 {
+    height: 500px;
+    color: white;
+    background: #1d1e26;
+    background: linear-gradient(218deg, rgba(29, 30, 38, 1) 0%, rgba(34, 44, 99, 1) 50%, rgba(255, 138, 48, 1) 100%);
+    /* css gradient */
+}
