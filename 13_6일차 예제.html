@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6일차 예제</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .section1 {
+            /* width: 1280px; */
+            padding: 120px;
+            background-color: rgb(214, 214, 214);
+        }
+
+        .section1 .box {
+            width: 1280px;
+            /* background-color: rgb(109, 53, 53); */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+
+        .section1 .text {
+            margin: 0 auto;
+        }
+
+        .section1 h1 {
+            font-size: 52px;
+            margin-bottom: 60px;
+        }
+
+        .section1 h2 {
+            margin-bottom: 20px;
+        }
+
+        .section1 img {
+            width: 735px;
+            height: 550px;
+        }
+
+
+        .section2 {
+            padding: 120px;
+            margin: 0 auto;
+            width: 1280px;
+        }
+
+        .section2 .head h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        .section2 .head p {
+            margin-bottom: 50px;
+        }
+
+        .section2 .case {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section2 .case .list {
+            width: 299px;
+            height: 360px;
+            background-color: rgb(214, 214, 214);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            /* 방향 바꾸기 : 수직 */
+            justify-content: space-between;
+            box-sizing: border-box;
+            padding: 36px;
+        }
+
+        .section2 .case .list .button{
+            width: 80px;
+            height: 30px;
+            background-color: white;
+            text-align: center;
+            border-radius: 30px;
+            line-height: 30px;
+            margin-bottom: 20px;
+            /* display: block; */
+        }
+
+        .section2 .case .list h3{
+            margin-bottom: 16px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+        <div class="section1">
+            <div class="box">
+
+                <div class="text">
+                    <h1>PRODUCT</h1>
+                    <h2>WEB & APP SERVICE</h2>
+                    <p>
+                        웹과 앱을 아우르는 통합 디지털 플랫폼을 통해<br>
+                        사용자 중심의 경험과 안정적인 서비스를 제공합니다.<br>
+                        기획부터 디자인, 개발까지<br>
+                        완성도도 높은 웹·앱 솔루션을 소개합니다.
+                    </p>
+                </div><!-- .text -->
+
+                <img src="img/nikita-pishchugin-NNYsqEldvD8-unsplash.jpg" alt="">
+            </div><!-- box -->
+        </div><!-- .section1 -->
+
+        <div class="section2">
+
+            <div class="head">
+                <h1>NEWS</h1>
+                <p>웹/앱의 새로운 소식을 알려드립니다.</p>
+            </div><!-- .head -->
+
+            <div class="case">
+
+                <div class="list">
+                    <div class="item">
+                        <p class="button">NEWS</p><!-- .button -->
+                        <h3>[UPDATE]모바일 앱 v2.5 정식출시</h3>
+                        <p>앱 성능과 사용성을 대폭 개선한 v2.5 업데이트가 배포되었습니다.</p>
+                    </div><!-- .item -->
+                    <span>26.01.30</span>
+                </div><!-- .list -->
+
+                <div class="list">
+                    <div class="item">
+                        <p class="button">NEWS</p><!-- .button -->
+                        <h3>웹 서비스 리뉴얼 업데이트 안내</h3>
+                        <p>서비스 메인 페이지와 대시보드 UI가 새롭게 개편되었습니다.</p>
+                    </div><!-- .item -->
+                    <span>26.01.30</span>
+                </div><!-- .list -->
+
+                <div class="list">
+                    <div class="item">
+                        <p class="button">NEWS</p><!-- .button -->
+                        <h3>UX 리서치 결과 리포트 공개</h3>
+                        <p>최근 진행한 웹/앱 UX 테스트 결과 리포트를 공개합니다.</p>
+                    </div><!-- .item -->
+                    <span>26.01.30</span>
+                </div><!-- .list -->
+
+                <div class="list">
+                    <div class="item">
+                        <p class="button">NEWS</p><!-- .button -->
+                        <h3>신규 기능: 실시간 알림 센터 추가</h3>
+                        <p>웹과 앱에서 동일하게 사용할 수 있는 실시간 알림 센터 기능이 추가되었습니다.</p>
+                    </div><!-- .item -->
+                    <span>26.01.30</span>
+                </div><!-- .list -->
+
+            </div><!-- .case -->
+
+        </div><!-- .section2 -->
+</body>
+
+</html>
